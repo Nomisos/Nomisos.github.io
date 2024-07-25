@@ -1,14 +1,22 @@
+/* styles.css */
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     color: #333;
-    background-color: white; /* Previous background color */
+    background-color: white;
 }
 
 header {
-    background-color: dimgray	;
+    width: 100%;
+    background-color: dimgray;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -17,10 +25,7 @@ header {
     align-items: center;
 }
 
-.header-left {
-    display: flex;
-    align-items: center;
-}
+.header-left,
 .header-right {
     display: flex;
     align-items: center;
@@ -29,17 +34,13 @@ header {
 .profile-image {
     border-radius: 50%;
     height: 80px;
-    margin-right: 20px;
-    margin-left:  20px;
+    margin: 0 20px;
 }
 
 .icon-image {
     height: 2rem;
-    margin-right: 20px;
-    margin-left:  20px;
-    align-items: center;
+    margin: 0 20px;
 }
-
 
 header h1 {
     margin: 0;
@@ -47,7 +48,7 @@ header h1 {
 }
 
 nav.header-nav {
-    flex-grow: 1; /* This makes the nav take up all available space */
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -55,14 +56,9 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: inline-flex; /* Display navigation items in a row */
-    justify-content: center; /* Center items horizontally */
+    display: inline-flex;
+    justify-content: center;
 }
-
-ul li {
-    margin: 0 20px;
-}
-
 
 nav ul li {
     margin: 0 10px;
@@ -75,6 +71,7 @@ nav ul li a {
 
 .container {
     padding: 20px;
+    width: 100%;
 }
 
 .section {
@@ -86,19 +83,14 @@ nav ul li a {
     padding-bottom: 5px;
 }
 
-
-
-.project{
-    margin-top: 60px;
-    margin-bottom: 60px;
+.project {
+    margin: 60px 0;
 }
 
 .project-image {
     display: block;
     max-width: 100%;
-    max-height: 100%;    
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .projects-section ul,
