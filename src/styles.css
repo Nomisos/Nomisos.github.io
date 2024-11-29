@@ -38,11 +38,11 @@ header .logo {
 .header-nav ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 25px;
 }
 
 .header-nav a {
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     text-decoration: none;
     color: #fff;
     font-weight: bold;
@@ -53,8 +53,8 @@ header .logo {
 /* Media Query for Small Screens */
 @media (max-width: 580px) {
     .header-nav ul {
-        font-size: .8em;
-        gap: 5px;
+        font-size: .6em;
+        gap: 15px;
     }
 }
 
