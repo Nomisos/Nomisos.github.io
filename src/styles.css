@@ -49,6 +49,15 @@ header .logo {
     font-size: 1.5em;
 }
 
+
+/* Media Query for Small Screens */
+@media (max-width: 580px) {
+    .header-nav ul {
+        font-size: .8em;
+        gap: 5px;
+    }
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
